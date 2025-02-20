@@ -1,0 +1,21 @@
+body {
+    background-color: #000;
+}
+
+h1 {
+    color: #eb6412;
+    background-color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    color: #eb6412;
+    background-color: #000;
+    font-family: cursive;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
