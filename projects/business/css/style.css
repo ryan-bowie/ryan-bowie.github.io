@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: #000;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Arsenal SC", serif;
+    color: #fff;
+    font-size: 60px;
+
+}
+
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 2em;
+    color: #fff;
+
+
+}
+
+ul {
+    list-style-type: none;
+    color: #dc143c;
+    padding: 1.3em;
+    font-size: 2em;
+    overflow: hidden;
+}
+
+li {
+    text-align: center;
+    float: center;
+    margin-right: 5.5em;
+}
+
+
+
