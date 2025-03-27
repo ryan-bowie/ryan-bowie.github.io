@@ -2,9 +2,8 @@
 
 
 
-
 body {
-    background-color: #141414;
+    background-color: #141414; 
 }
 
 .container {
@@ -18,10 +17,15 @@ body {
 .row {
     align-items: center ;
 }
-
+/* Inconsistency of nav bar on different pages */
 .topnav {
     background-color: #141414;
     float: right;
+    position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;;
+    
 }
 
 .topnav a {
@@ -32,6 +36,8 @@ body {
     padding: 18px;
     font-family: "DM Sans", sans-serif;
     font-size: 2.7em;
+    
+    
 
 
 }
@@ -41,4 +47,90 @@ body {
     height: auto;
     display: block;
 }
+
+
+h1 {
+    color: #FFF;
+    font-size: 2.5em;
+    font-family: "DM Sans", sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+
+.img-laughing {
+    width: 100%;
+    padding: 2rem
+}
+
+#left-box{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #4D4D4D 0%,
+        #4D4D4D 50%
+    );
+}
+
+#right-box{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #ECEAEA 50%,
+        #ECEAEA 100%
+    )
+}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+
+#sports {
+    padding-left: 5em;
+    padding-right: 5em;
+    
+}
+
+#news {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.carousel-text {
+    margin: 1em;
+    font-size: 5em;
+}
+
+#social {
+    text-align: center;
+    
+}
+/* CSS for social links are unresponsive for size, but work for color */
+/* .fa-twitter {
+    font-size: 10em;
+    background-color: #141414;
+}
+
+.fa-instagram {
+    font-size: 10em;
+    background-color: #141414;
+}
+
+.fa-linkedin {
+    font-size: 10em;
+    background-color: #141414;
+}
+
+.fa-youtube {
+    font-size: 10em;
+    background-color: #141414;
+} */
 
