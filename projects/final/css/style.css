@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Italiana&family=Lobster&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%) }
+
+body {
+    background-color: #ca776f;
+    color: #FAFCEF;
+    font-size: 14px;
+    font-family: "Abel", sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: "Lobster", sans-serif;
+    color: #005A9C;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #f8321c;
+}
+
+h3 {
+    font-size: 3em;
+    font-family: "Lobster", sans-serif;
+}
+.source {
+    font-size: .7em;
+}
+
+.container {
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+    ;
+}
+
+#container {
+    background-color: #88a9d0;
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+    ;
+}
+
+.subtitle-2 {
+    text-align: right;
+}
+
+@media (min-width: 200px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 3em
+
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+    h3 {
+        font-size: 1.5em
+    }
+   
+}
